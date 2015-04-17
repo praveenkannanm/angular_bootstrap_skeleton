@@ -1,0 +1,7 @@
+<div class="container" ng-app="app">
+  <header ng-include='"header.html"' onload=""></header>
+  <div ui-view></div>
+  <input type="text" ng-model="name"></input>
+  {{name}}
+  <footer ng-include="'footer.html'" scope="" onload=""></footer>
+</div>
